@@ -1,0 +1,81 @@
+body {
+    background-color: aqua;
+    position: relative;
+}
+
+#main {
+    display: block;
+}
+
+.cats {
+    position: relative;
+    margin-top: 80px;
+    text-align: center;
+}
+
+.pepe {
+    margin-left: 30%;
+    margin-right: 30%;
+    border: 3px solid #fff;
+}
+
+#title {
+    font-size: 50px;
+    font-weight: bolder;
+    font-family: Helvetica;
+}
+
+#desc {
+    margin-top: 50px;
+    font-size: 23px;
+}
+
+.freim {
+    background-color: rgb(235, 232, 232);
+    padding-top: 40px;
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-bottom: 75px;
+    margin: 0 auto 0 auto;
+    height: 200px;
+    width: 250px;
+}
+
+.btn {
+    width: auto;
+}
+
+#rainbow {
+    width: 250px;
+    height: 40px;
+    margin-top: 10px;
+    color: rgb(0, 0, 0);
+    background: linear-gradient(to right, red, orange , yellow, green, cyan, blue, violet);
+    font-weight: bolder;
+    font-size: 18px;
+}
+
+.arrow {
+    display: flex;
+    justify-content: center;
+    margin: 0 auto 0 auto;
+}
+
+.sale {
+    display: none;
+    margin-left: 30%;
+    margin-right: 30%;
+    position: absolute;
+    top: 75px;
+}
+
+#table {
+    width: fit-content;
+    height: fit-content;
+    margin: 0 auto 0 auto;
+
+    display: none;
+    justify-content: center;
+    background-color: rgb(255, 255, 255);
+
+}
